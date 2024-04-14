@@ -7,5 +7,11 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.motion.tabout-nvim" },
+  { import = "astrocommunity.editing-support.vim-move" },
+  { import = "astrocommunity.editing-support.mini-splitjoin" },
+  { import = "astrocommunity.editing-support.undotree" },
+  { import = "astrocommunity.media.codesnap-nvim" },
   -- import/override with your plugins folder
 }
