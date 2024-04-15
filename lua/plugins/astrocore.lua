@@ -29,7 +29,7 @@ return {
         number = true, -- sets vim.opt.number
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes",
-        wrap = false,
+        wrap = true,
         tabstop = 4,
         shiftwidth = 0,
         showbreak = ">   ",
