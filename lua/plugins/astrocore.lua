@@ -49,7 +49,8 @@ return {
       n = {
         L = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
         H = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
-        ["<C-s>"] = { ":w<cr>", desc = "Save File" },
+        ["<C-s>"] = { ":w<CR>", desc = "Save File" },
+        ["<Leader>w"] = { "<Cmd>wa<CR>", desc = "Save all files" },
         ["0"] = { "^" },
         ["^"] = { "0" },
         -- ["<C-_>"] = { function() require("Comment.api").toggle.linewise.count(vim.v.count1) end, desc = "Comment line" },
