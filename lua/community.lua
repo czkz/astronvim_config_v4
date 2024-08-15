@@ -13,5 +13,6 @@ return {
   { import = "astrocommunity.editing-support.mini-splitjoin" },
   { import = "astrocommunity.editing-support.undotree" },
   { import = "astrocommunity.media.codesnap-nvim" },
+  { import = "astrocommunity.color.transparent-nvim" },
   -- import/override with your plugins folder
 }
